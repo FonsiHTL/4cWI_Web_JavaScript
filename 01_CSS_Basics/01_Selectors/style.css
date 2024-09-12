@@ -1,0 +1,28 @@
+/*div {
+
+    font-size: 2rem;
+    background-color: blueviolet;
+}
+*/
+
+#header {
+    font-size: 1.5rem;
+    background-color: green;
+    padding: 3%;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.importantText {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aqua;
+   
+}
+
+#text {
+    background-color: crimson;
+}
