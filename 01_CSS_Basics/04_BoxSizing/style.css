@@ -1,0 +1,32 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-style: solid;
+}
+
+.second{
+    padding:10px;
+}
+
+.third{
+    margin-left: 20rem;
+}
+
+.fourth{
+    margin-left:13rem;
+    width: 20rem;
+    border-radius: 1rem;
+
+}
+
+.fifth{
+
+    margin-top: -25rem;
+    margin-left: 20rem;
+    
+}
+
+*{
+    box-sizing: content-box;
+}
