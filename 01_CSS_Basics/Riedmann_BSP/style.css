@@ -1,0 +1,49 @@
+
+.container1{
+    margin:10px;
+    margin-top: 20px;
+}
+
+
+.box1{
+
+    border-style: solid;
+    background-color: red;
+    margin-bottom: 30px;
+}
+
+.box2{
+    
+    top: 500px;
+    width: 400px;
+    height: 100px;
+    border-style: solid;
+    position: relative;     /* relative sorgt dafür, dass kein Objekt den eigentlichen Platz diese Objekts einnimmt*/
+    background-color: aqua;
+
+}
+
+.box3{
+    background-color: pink;
+    margin-top: 40px;
+    top: 10px;
+    border-style: solid;
+    position: sticky;       /*sticky sorgt dafür, dass das Objekt bie scrollen am Oberen Bildschirmrand festklebt*/
+}
+
+.box4{
+
+    
+    border-style: solid;
+    background-color: yellow;
+    position: absolute;      /* absolute Objekte sind von der "Normalen" Ebene "abgehoben" und können mit anderen Objekten überlappen*/
+    top: 600px;
+    right: 300px;
+}
+
+.scroldiv{
+    width: 700px;
+    height:1500px;
+    background-color:rgb(26, 207, 26);
+    position: relative;
+}
