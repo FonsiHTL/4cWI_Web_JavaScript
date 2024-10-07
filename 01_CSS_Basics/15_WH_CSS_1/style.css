@@ -1,0 +1,46 @@
+.bluebox{
+    height: 400px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+    background-color: aqua;
+
+}
+
+.greenbox{
+    position: absolute;
+    background-color: rgb(28, 211, 28);
+    height: 40px;
+    width: 40px;
+    bottom: 0;
+    right: 0;
+}
+
+.blackbox{
+    background-color: black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -15px;
+    left: -15px;
+}
+
+.invisible-bar{
+    background-color: bisque;
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px;
+}
+
+.darkgreenbox{
+    margin: 40px;;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+}
+
