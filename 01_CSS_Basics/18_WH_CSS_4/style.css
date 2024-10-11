@@ -1,0 +1,54 @@
+.flexbox-bar{
+    display: flex;
+    width: auto;
+    height: 500px;
+    align-items: space-between;
+    justify-content: end;
+}
+
+.greenbox{
+    height: 270px;
+    width : 170px;
+    margin: 30px;
+    background-color: green;
+    display: flex;
+    align-items: end;
+    
+}
+
+.redbox{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border: 2px;
+    border-style: solid;
+    
+}
+
+.bigblueflexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+}
+
+.darkbluebox{
+    width: 120px;
+    height: 120px;
+    background-color: darkblue;
+
+}
+
+.bluebox{
+    width: 120px;
+    height: 120px;
+    background-color: purple;
+    border: 2px solid;
+    position: absolute;
+    bottom: -30px;
+    right: -30px;
+}
