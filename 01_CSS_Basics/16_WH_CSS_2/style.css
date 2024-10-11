@@ -1,0 +1,62 @@
+.wrapper{
+    height: 400px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.bluebox1{
+    background-color:aqua;
+    height: 400px;
+    width : 400px;
+    position: relative;
+
+
+}
+
+.bluebox2{
+    background-color:aqua;
+    height: 400px;
+    width : 400px;
+    position: relative;
+
+}
+
+
+.redbox1{
+    background-color: red;
+    height:50px;
+    width:50px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.redbox2{
+    background-color: red;
+    height:50px;
+    width:50px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.greenbox{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(15, 205, 15);
+    bottom: 0px;
+    right: 0px;
+}
+
+.blackbox{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    bottom: 0px;
+    right: 0px;
+}
