@@ -156,7 +156,167 @@
 
 }
 
+
 .background-image{
-    height: 1519,2 ;
-    width:  689,4;
+
+    position: relative;
+}
+.Div-Gradient{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg,#fff,rgba(0,0,0,.001) 50%),linear-gradient(90deg,#fff,rgba(0,0,0,.001) 50%);
+    position: absolute;
+    height:100% ;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+}
+
+
+
+
+.background-content{
+   
+    margin-left: 80px;
+    margin-top: 270px;
+    width: 700px;
+}
+
+
+.txtdrive{
+    font-size: 50px;
+}
+
+.txtleasing{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.button-wrapper{
+
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: 90px;
+    margin-left: 80px;
+   
+}
+
+.background-content-button1{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-top: 15px;
+    height: 30px;
+    width: 150px;
+}
+
+.background-content-button2{
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    padding-top: 15px;
+    height: 30px;
+    width: 160px;
+    margin-left: 10px;
+    background-color: #3457D5;
+    color:white;
+}
+
+
+.small-print{
+    color: rgb(150, 149, 149);
+    font-size: small;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 80px;
+    width: 1323px;
+    height: 120px;
+}
+
+.symbol-wrapper{
+    width: auto;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sticky-div-wrapper{
+    height: 50px;
+    width: 450px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    position: sticky;
+    
+    
+}
+
+.mercedes-benz-sticky{
+    border: 1.5px solid gray ;
+    text-align: center;
+    padding-top: 17px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.amg-sticky{
+    border: 1.5px solid gray ;
+    text-align: center;
+    padding-top: 17px;
+   
+}
+
+.maybach-sticky{
+    border: 1.5px solid gray ;
+    text-align: center;
+    padding-top: 17px;
+    
+}
+
+.recommendations{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.picture-grid{
+    display: grid;
+    background-color: yellow;
+    margin: 80px;
+    grid-template-columns: 150px 150px 150px;
+    object-fit: cover;
+   
+}
+
+.g-class{
+    height: 624px;
+    background-size: cover;
+   
+}
+
+.eq-ranges{
+    height: 624px;
+    background-size: cover;
+}
+
+.digital-companion{
+    height: 624px;
+    background-size: cover;
+}
+
+.CPO{
+    height: 624px;
+    background-size: cover;
+}
+.GLC{
+    height: 624px;
+    background-size: cover;
 }
