@@ -12,7 +12,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     width: 1301px;
     height: 84px;
     background-color: black;
@@ -263,6 +262,7 @@
     padding-top: 17px;
     background-color: black;
     color: white;
+    position: sticky;
     
     
 }
@@ -271,6 +271,7 @@
     border: 1.5px solid gray ;
     text-align: center;
     padding-top: 17px;
+    position: sticky;
    
 }
 
@@ -278,6 +279,7 @@
     border: 1.5px solid gray ;
     text-align: center;
     padding-top: 17px;
+    position: sticky;
     
 }
 
@@ -289,34 +291,56 @@
 
 .picture-grid{
     display: grid;
-    background-color: yellow;
-    margin: 80px;
-    grid-template-columns: 150px 150px 150px;
+    margin-top: 35px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 624px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 624px;
+    column-gap: 40px;
+    row-gap: 40px;
     object-fit: cover;
+
    
 }
 
-.g-class{
+.gridbox img {
+    width:100%;
+}
+
+
+.gridimage{
+    object-fit: cover;
+    height: 100%;
+}
+
+#g-class{
+    grid-column-start: 1;
+    grid-column-end: 3;
     height: 624px;
     background-size: cover;
    
 }
 
-.eq-ranges{
+#eq-ranges{
     height: 624px;
     background-size: cover;
 }
 
-.digital-companion{
+#digital-companion{
     height: 624px;
     background-size: cover;
 }
 
-.CPO{
+#CPO{
     height: 624px;
     background-size: cover;
 }
-.GLC{
+#GLC{
     height: 624px;
     background-size: cover;
+}
+
+.gridbox img {
+    width:100%;
 }
