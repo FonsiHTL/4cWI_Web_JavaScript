@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/Card'
+import Button from './components/Button'
+import List from './components/List'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,13 @@ function App() {
       <Card name={"Samuel"}jobtitle={"Schueler"}description={"Zigarillo"}/>
     </div>
 
+    <div className="flex">
+      <Button/>
+    </div>
+
+    <div className="flex">
+      <List/>
+    </div>
   
     </>
   )
