@@ -1,14 +1,18 @@
 import React from "react";
 
 
-export default function Card({image, name, jobtitle, description}) {
+export default function Card({name, title, imageUri}) {
+    const random = Math.random();
     
-    return <div className="border w-499px m-20 shadow-lg">
-        <img src="https://www.w3schools.com/howto/img_avatar.png" alt="bild nicht verfügbar" />
-        <p className="font-bold ml-3 mb-1 text-xl">{name}</p>
-        <p className="font-bold ml-3 mb-1 text-xl">{jobtitle}</p>
-        <p className="font-bold ml-3 mb-1 text-xl">{description}</p>
-        
-        
+    return (
+        <div className="border grid-cols-2 h-100 m-7 shadow-2xl shadow-black bg-blue-200">
+            <div className="p-4">
+                <h2 className="font-bold text-xl">{name}</h2>
+                <h4>{title }</h4>
+            </div>
+            <div>
+                <img src={imageUri + "?random=" + random} alt="nicht hier" className="object-cover w-full h-full"/>
+            </div>
         </div>
+    )
 }

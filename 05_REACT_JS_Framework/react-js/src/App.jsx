@@ -5,8 +5,16 @@ import './App.css'
 import Card from './components/Card'
 import Button from './components/Button'
 import List from './components/List'
+import PeopleContainer from './components/PeopleContainer'
 
 function App() {
+  return (
+    <div>
+        <PeopleContainer/> 
+    </div>
+  )
+
+  /*
   const [count, setCount] = useState(0)
 
   return (
@@ -28,6 +36,7 @@ function App() {
   
     </>
   )
+    */
 }
 
 export default App
