@@ -19,7 +19,7 @@ function App() {
     </div>
 
     <div className="flex">
-      <Button/>
+      <Button title={"button"}/>
     </div>
 
     <div className="flex">
