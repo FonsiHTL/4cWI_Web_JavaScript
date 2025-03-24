@@ -16,9 +16,9 @@ export default function PeopleContainer(){
     return (
         <div>
             <h1>People</h1>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {people.map(person => {
-                return <Card name={person.name} imageUri={"https://picsum.photos/seed/picsum/200/300"} title={person.jobtitle}/>
+                return <Card name={person.name} imageUri={"https://picsum.photos/200/300"} title={person.jobtitle}/>
             })}
             </div>
         </div>
