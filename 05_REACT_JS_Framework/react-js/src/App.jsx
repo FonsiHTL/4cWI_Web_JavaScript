@@ -10,33 +10,10 @@ import PeopleContainer from './components/PeopleContainer'
 function App() {
   return (
     <div>
-        <PeopleContainer/> 
+      <PeopleContainer/>
     </div>
   )
 
-  /*
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-    <h1 className="bg-amber-300">Hello!</h1>
-
-    <div className="flex">
-      <Card name={"Lukas"}jobtitle={"Schueler"}description={"kann nicht laufen"}/>
-      <Card name={"Samuel"}jobtitle={"Schueler"}description={"Zigarillo"}/>
-    </div>
-
-    <div className="flex">
-      <Button title={"button"}/>
-    </div>
-
-    <div className="flex">
-      <List/>
-    </div>
-  
-    </>
-  )
-    */
 }
 
 export default App
