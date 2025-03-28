@@ -10,7 +10,7 @@ import PeopleContainer from './components/PeopleContainer'
 function App() {
   return (
     <div>
-      <PeopleContainer/>
+      
     </div>
   )
 
