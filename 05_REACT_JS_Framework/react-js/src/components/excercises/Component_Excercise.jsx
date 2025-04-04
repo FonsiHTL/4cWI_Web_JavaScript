@@ -2,13 +2,16 @@ import React from 'react'
 import Card from '../Card'
 import Button from '../Button'
 import List from '../List'
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 
 export default function Component_Excercise() {
+  const location = useLocation();
+  const person = location.state.person;
+
   return (
     <div>
-      <h1 className="bg-amber-300">Hello!</h1>
-
+      <h1 className="bg-amber-300">Hello</h1>
+    <div className='p-2.5 font-bold border-2'>Hello {person.firstname}</div>
 
 <div className="flex">
   <Card name={"Lukas"}jobtitle={"Schueler"}description={"kann nicht laufen"}/>
