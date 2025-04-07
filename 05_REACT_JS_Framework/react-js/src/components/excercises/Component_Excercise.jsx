@@ -11,7 +11,7 @@ export default function Component_Excercise() {
   return (
     <div>
       <h1 className="bg-amber-300">Hello</h1>
-    <div className='p-2.5 font-bold border-2'>Hello {person.firstname}</div>
+    <div className='p-2.5 font-bold border-2 '>Hello {person.firstname}</div>
 
 <div className="flex">
   <Card name={"Lukas"}jobtitle={"Schueler"}description={"kann nicht laufen"}/>

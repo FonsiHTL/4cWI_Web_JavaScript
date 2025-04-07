@@ -7,19 +7,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Cards_und_Daten from "./components/excercises/Cards_und_Daten";
 import Component_Excercise from "./components/excercises/Component_Excercise";
+import FootballContainer from "./components/excercises/FootballContainer";
 import "./index.css"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Cards_und_Daten/>,
+    element: <FootballContainer/>,
 
-  },
-
-  {
-
-    path: "/p2",
-    element: <Component_Excercise/>,
   },
 ]);
 
