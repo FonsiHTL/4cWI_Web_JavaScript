@@ -8,7 +8,7 @@ export default function TeamDetails() {
   return (
     <div className="container mx-auto p-8">
       <Link to="/" className="bg-blue-500 text-white px-4 py-2 rounded-lg mb-4 inline-block hover:bg-blue-600">
-        Back to Overview
+        Zurück zur Übersicht
       </Link>
 
       <div className="bg-blue-200 rounded-xl shadow-lg p-6 mt-4">
@@ -23,20 +23,20 @@ export default function TeamDetails() {
 
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-white p-4 rounded-lg">
-            <h2 className="font-bold mb-2">Statistics</h2>
+            <h2 className="font-bold mb-2">Statistik</h2>
             <p>Position: {teamData.position}</p>
-            <p>Points: {teamData.points}</p>
-            <p>Matches: {teamData.matches}</p>
-            <p>Won: {teamData.won}</p>
-            <p>Draw: {teamData.draw}</p>
-            <p>Lost: {teamData.lost}</p>
+            <p>Punkte: {teamData.points}</p>
+            <p>Spiele: {teamData.matches}</p>
+            <p>Gewonnen: {teamData.won}</p>
+            <p>Unentschieden: {teamData.draw}</p>
+            <p>Verloren: {teamData.lost}</p>
           </div>
 
           <div className="bg-white p-4 rounded-lg">
             <h2 className="font-bold mb-2">Goals</h2>
-            <p>Goals Scored: {teamData.goals}</p>
-            <p>Goals Against: {teamData.opponentGoals}</p>
-            <p>Goal Difference: {teamData.goalDiff}</p>
+            <p>Tore: {teamData.goals}</p>
+            <p>Gegentore: {teamData.opponentGoals}</p>
+            <p>Tordifferenz: {teamData.goalDiff}</p>
           </div>
         </div>
       </div>
